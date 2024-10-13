@@ -1,0 +1,345 @@
+﻿pm_market_stalls = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_wood_add = 2
+			goods_output_services_add = 10
+			goods_input_tools_add = 0.25
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 3200
+			building_employment_clerks_add = 800
+			building_employment_shopkeepers_add = 345
+			building_employment_clergymen_add = 85 # 200
+			building_employment_bureaucrats_add = 45 # new
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 12
+			building_clerks_shares_add = 4
+	    }
+	}
+    state_modifiers = {
+	    level_scaled = {
+		    state_building_construction_sector_max_level_add = 0.2
+		    building_group_bg_manufacturing_throughput_add = 0.001
+		    building_construction_sector_throughput_add = 0.001
+		    building_railway_throughput_add = 0.002
+		    building_trade_center_throughput_add = 0.001
+		    building_government_administration_throughput_add = 0.001
+		    state_pop_qualifications_mult = 0.0025
+		    state_political_strength_from_wealth_mult = 0.001
+		    state_education_access_wealth_add = 0.0004
+		    state_pop_pol_str_mult = 0.001
+		    state_migration_pull_add = 0.04
+		    state_pollution_generation_add = 1
+		}
+	}
+}
+
+pm_market_squares = {
+	texture = "gfx/interface/icons/production_method_icons/market_squares.dds"
+
+	unlocking_technologies = { urban_planning }
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_wood_add = 2.5
+			goods_input_glass_add = 0.5
+			goods_input_fabric_add = 0.25
+			goods_input_tools_add = 0.25
+			goods_output_services_add = 20
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 3200
+			building_employment_clerks_add = 800
+			building_employment_shopkeepers_add = 345
+			building_employment_clergymen_add = 85 # 200
+			building_employment_bureaucrats_add = 45 # new
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 12
+			building_clerks_shares_add = 4
+	    }
+	}
+    state_modifiers = {
+	    level_scaled = {
+		    state_building_construction_sector_max_level_add = 0.2
+		    building_group_bg_manufacturing_throughput_add = 0.001
+		    building_construction_sector_throughput_add = 0.001
+		    building_railway_throughput_add = 0.002
+		    building_trade_center_throughput_add = 0.001
+		    building_government_administration_throughput_add = 0.001
+		    state_pop_qualifications_mult = 0.0025
+		    state_political_strength_from_wealth_mult = 0.001
+		    state_education_access_wealth_add = 0.0004
+		    state_pop_pol_str_mult = 0.001
+		    state_migration_pull_add = 0.04
+		    state_pollution_generation_add = 1
+		}
+	}
+}
+
+pm_covered_markets = {
+	texture = "gfx/interface/icons/production_method_icons/covered_markets.dds"
+	unlocking_technologies = {
+		steel_frame_buildings
+	}
+
+	building_modifiers = {
+		
+		workforce_scaled = {
+			goods_input_glass_add = 1
+			goods_input_steel_add = 1
+			goods_input_tools_add = 0.5
+			goods_output_services_add = 35
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 3200
+			building_employment_clerks_add = 800
+			building_employment_shopkeepers_add = 345
+			building_employment_clergymen_add = 85 # 200
+			building_employment_bureaucrats_add = 45 # new
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 12
+			building_clerks_shares_add = 4
+	    }
+	}
+    state_modifiers = {
+	    level_scaled = {
+		    state_building_construction_sector_max_level_add = 0.2
+		    building_group_bg_manufacturing_throughput_add = 0.001
+		    building_construction_sector_throughput_add = 0.001
+		    building_railway_throughput_add = 0.002
+		    building_trade_center_throughput_add = 0.001
+		    building_government_administration_throughput_add = 0.001
+		    state_pop_qualifications_mult = 0.0025
+		    state_political_strength_from_wealth_mult = 0.001
+		    state_education_access_wealth_add = 0.0004
+		    state_pop_pol_str_mult = 0.001
+		    state_migration_pull_add = 0.04
+		    state_pollution_generation_add = 1
+		}
+	}
+}
+
+pm_arcades = {
+	texture = "gfx/interface/icons/production_method_icons/arcades.dds"
+	unlocking_technologies = {
+		paved_roads
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_glass_add = 2
+			goods_input_steel_add = 2.5
+			goods_input_tools_add = 1
+			goods_input_electricity_add = 0.5
+			goods_output_services_add = 50
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 3200
+			building_employment_clerks_add = 800
+			building_employment_shopkeepers_add = 345
+			building_employment_clergymen_add = 85 # 200
+			building_employment_bureaucrats_add = 45 # new
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 12
+			building_clerks_shares_add = 4
+	    }
+	}
+    state_modifiers = {
+	    level_scaled = {
+		    state_building_construction_sector_max_level_add = 0.2
+		    building_group_bg_manufacturing_throughput_add = 0.001
+		    building_construction_sector_throughput_add = 0.001
+		    building_railway_throughput_add = 0.002
+		    building_trade_center_throughput_add = 0.001
+		    building_government_administration_throughput_add = 0.001
+		    state_pop_qualifications_mult = 0.0025
+		    state_political_strength_from_wealth_mult = 0.001
+		    state_education_access_wealth_add = 0.0004
+		    state_pop_pol_str_mult = 0.001
+		    state_migration_pull_add = 0.04
+		    state_pollution_generation_add = 1
+		}
+	}
+}
+
+pm_no_street_lighting = {
+	texture = "gfx/interface/icons/production_method_icons/no_street_lighting.dds"
+
+	city_lights_color_index = 0	# Needs to match city_graphics_data.settings color array
+}
+
+pm_oil_streetlights = {
+	texture = "gfx/interface/icons/production_method_icons/gas_streetlights.dds"
+
+	city_lights_color_index = 1	# Needs to match city_graphics_data.settings color array
+
+	unlocking_technologies = {
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_oil_add = 0.5
+			goods_input_tools_add = 0.2
+			goods_output_services_add = 2.5
+		}
+		level_scaled = {
+			building_employment_laborers_add = 36
+			building_employment_clerks_add = 15
+			building_employment_shopkeepers_add = 12
+			building_employment_engineers_add = 6
+		}
+	
+    unscaled = { building_urban_center_throughput_add = 0.06 }
+    }
+
+    state_modifiers = {
+	    unscaled = { 
+		    state_urbanization_per_level_mult = -0.05
+		}
+	}
+}
+
+pm_gas_streetlights = {
+	texture = "gfx/interface/icons/production_method_icons/gas_streetlights.dds"
+
+	city_lights_color_index = 2	# Needs to match city_graphics_data.settings color array
+
+	unlocking_technologies = {
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_coal_add = 1
+			goods_input_tools_add = 0.25
+			goods_output_services_add = 2
+		}
+		level_scaled = {
+			building_employment_laborers_add = 36
+			building_employment_clerks_add = 15
+			building_employment_shopkeepers_add = 12
+			building_employment_engineers_add = 6
+		}
+		
+	        unscaled = { building_urban_center_throughput_add = 0.05 }
+	    }
+
+    state_modifiers = {
+	    unscaled = { 
+		    state_urbanization_per_level_mult = -0.05
+		}
+	}
+}
+
+pm_electric_streetlights = {
+	texture = "gfx/interface/icons/production_method_icons/electric_streetlights.dds"
+
+	city_lights_color_index = 3	# Needs to match city_graphics_data.settings color array
+
+	unlocking_technologies = {
+		electrical_generation
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 0.5
+			goods_input_tools_add = 0.75
+			goods_output_services_add = 5
+		}
+		level_scaled = {
+			building_employment_laborers_add = 26
+			building_employment_clerks_add = 20
+			building_employment_shopkeepers_add = 24
+			building_employment_engineers_add = 16
+		}
+		
+	        unscaled = { building_urban_center_throughput_add = 0.15 }
+	    }
+
+    state_modifiers = {
+	    unscaled = { 
+		    state_urbanization_per_level_mult = -0.1
+		}
+	}
+}
+
+pm_no_public_transport = {
+	texture = "gfx/interface/icons/production_method_icons/no_public_transport.dds"
+}
+
+pm_public_trams = {
+	texture = "gfx/interface/icons/production_method_icons/public_trams.dds"
+
+	unlocking_technologies = {
+		railways
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_engines_add = 1.5
+			goods_input_tools_add = 0.5
+			goods_output_services_add = 2
+		}
+		level_scaled = {
+			building_employment_laborers_add = 26
+			building_employment_clerks_add = 12
+			building_employment_shopkeepers_add = 12
+			building_employment_engineers_add = 6
+		}
+		
+	        unscaled = { building_urban_center_throughput_add = 0.05 }
+	    }
+
+    state_modifiers = {
+	    unscaled = { 
+		    state_urbanization_per_level_mult = -0.05
+		    state_infrastructure_from_population_max_add = 5
+		    state_infrastructure_from_population_add = 2.5
+		}
+	}
+}
+
+pm_public_motor_carriages = {
+	texture = "gfx/interface/icons/production_method_icons/public_motor_carriages.dds"
+
+	unlocking_technologies = {
+		paved_roads
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_automobiles_add = 0.5
+			goods_input_tools_add = 1
+			goods_output_services_add = 5
+		}
+		level_scaled = {
+			building_employment_laborers_add = 20
+			building_employment_clerks_add = 15
+			building_employment_shopkeepers_add = 24
+			building_employment_engineers_add = 12
+		}
+		
+	        unscaled = { building_urban_center_throughput_add = 0.05 }
+	    }
+
+    state_modifiers = {
+	    unscaled = { 
+		    state_urbanization_per_level_mult = -0.05
+		    state_infrastructure_from_population_max_add = 5
+		    state_infrastructure_from_population_add = 2.5
+		}
+	}
+}

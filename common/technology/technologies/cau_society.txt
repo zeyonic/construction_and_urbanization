@@ -1,0 +1,121 @@
+﻿urbanization = {
+	# Unlocks Urban Centers building
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	
+	modifier = {
+		state_infrastructure_from_population_add = 2
+		state_infrastructure_from_population_max_add = 40	
+		state_building_construction_sector_max_level_add = 2
+	    country_max_weekly_construction_progress_add = 2
+		market_land_trade_capacity_add = 50
+	}
+	
+	ai_weight = {
+		value = 10 # 3
+	}
+}
+
+urban_planning = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/urban_planning.dds"
+	category = society
+	
+	modifier = {
+		state_infrastructure_from_population_add = 1
+		state_infrastructure_from_population_max_add = 20
+	    state_building_construction_sector_max_level_add = 2
+		country_max_weekly_construction_progress_add = 2
+		market_land_trade_capacity_add = 50
+	}
+	
+	unlocking_technologies = {
+		urbanization
+	}
+	
+	ai_weight = {
+		value = 10 # 2
+	}
+}
+
+sewage_systems = {
+	# Unlocks Maintained Sewers PM in Urban Centers
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/modern_sewerage.dds"
+	category = society
+	
+	modifier = {
+		state_infrastructure_from_population_max_add = 20
+		state_urbanization_per_level_mult = -0.1
+		state_pollution_reduction_health_mult = -0.1
+		state_building_construction_sector_max_level_add = 5
+		country_max_weekly_construction_progress_add = 6
+	}
+	
+	unlocking_technologies = {
+		urban_planning
+	}
+	
+	ai_weight = {
+		value = 3 # Important in general
+		if = {
+			limit = {
+				year > 1841
+			}
+			add = 3
+		}
+	}
+}
+
+modern_sewerage = {
+	# Unlocks Maintained Sewers PM in Urban Centers
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/modern_sewerage.dds"
+	category = society
+	
+	modifier = {
+		state_infrastructure_from_population_max_add = 20
+		state_urbanization_per_level_mult = -0.1
+		state_pollution_reduction_health_mult = -0.15
+		state_building_construction_sector_max_level_add = 5
+		country_max_weekly_construction_progress_add = 5
+	}
+	
+	unlocking_technologies = {
+		sewage_systems
+	}
+	
+	ai_weight = {
+		value = 6 # Important in general
+	}
+}
+
+water_treatment = {
+	# Unlocks Maintained Sewers PM in Urban Centers
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/modern_sewerage.dds"
+	category = society
+	
+	modifier = {
+		state_infrastructure_from_population_max_add = 20
+		state_urbanization_per_level_mult = -0.15
+		state_pollution_reduction_health_mult = -0.25
+		state_building_construction_sector_max_level_add = 10
+		country_max_weekly_construction_progress_add = 10
+	}
+	
+	unlocking_technologies = {
+		modern_sewerage
+	}
+	
+	ai_weight = {
+		value = 6 # Important in general
+		if = {
+			limit = {
+				year < 1880
+			}
+			add = -1
+		}
+	}
+}

@@ -1,0 +1,29 @@
+﻿state_trait_russian_forest = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
+	
+	modifier = {
+		building_group_bg_logging_throughput_add = 0.2
+		state_building_construction_sector_max_level_add = -1
+		state_construction_mult = -0.05
+	}
+}
+
+state_trait_caucasus_mountains = {
+	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
+	
+	modifier = {
+		state_construction_mult = -0.2
+		state_infrastructure_mult = -0.2
+		state_building_construction_sector_max_level_add = -1
+	}
+}
+
+state_trait_western_steppe = {
+	icon = "gfx/interface/icons/state_trait_icons/great_plains.dds"
+
+	modifier = {
+        building_group_bg_ranching_throughput_add = 0.1
+		state_building_construction_sector_max_level_add = -1
+		state_construction_mult = -0.05
+	}
+}

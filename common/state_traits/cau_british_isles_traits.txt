@@ -1,0 +1,21 @@
+﻿state_trait_south_wales_valleys = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+	
+	modifier = {
+		building_coal_mine_throughput_add = 0.1
+		state_building_construction_sector_max_level_add = -1
+		state_construction_mult = -0.05
+	}
+}
+
+state_trait_scottish_highlands = {
+	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
+	
+	modifier = {
+		state_infrastructure_mult = -0.1
+		state_construction_mult = -0.1
+		building_group_bg_agriculture_throughput_add = -0.1
+		building_group_bg_ranching_throughput_add = 0.1
+		state_building_construction_sector_max_level_add = -1
+	}
+}

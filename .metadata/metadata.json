@@ -1,0 +1,12 @@
+{
+  "name" : "Construction & Urbanization",
+  "id" : "",
+  "version" : "1.0",
+  "supported_game_version" : "1.7.*",
+  "short_description" : "reworks the games' construction and urbanization system",
+  "tags" : [],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}

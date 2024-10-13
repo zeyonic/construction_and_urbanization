@@ -1,0 +1,22 @@
+﻿unincorporated_state = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
+   #state_infrastructure_mult = -0.25 # terrain & infrastructure should be the factor, not a states' status
+	state_conscription_rate_mult = -0.5
+	state_expected_sol_mult = -0.5 # tweak
+	state_pop_pol_str_mult = -0.66 # tweak
+	state_pop_qualifications_mult = -0.5 # new
+	building_group_bg_manufacturing_throughput_add = -2 # stop building factories in my colonies damnit!
+	building_group_bg_government_throughput_add = -0.1
+	building_group_bg_military_throughput_add = -0.1		
+	state_market_access_price_impact = -0.1
+	state_building_construction_sector_max_level_add = -8 # less construction in unincorp states [Important, keep this! bessemer process + railroads to build sectors in unincorp states.]
+	state_unincorporated_starting_wages_mult = -0.33
+}
+
+capital_state = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	state_pop_pol_str_mult = 0.25
+	state_tax_capacity_mult = 0.25
+	state_construction_mult = 0.05 # 5% construction efficiency in capitals
+	state_building_construction_sector_max_level_add = 5 # capital states can support additional base sectors
+}

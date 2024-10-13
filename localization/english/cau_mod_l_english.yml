@@ -1,0 +1,8 @@
+﻿l_english:
+ pm_construction_no_safety:0 "No Hazard controls"
+ pm_construction_hardhats:0 "Mandatory Hard hats"
+ pm_construction_harnesses:0 "Hard hats & Harnesses"
+ pm_oil_streetlights:0 "Oil Streetlights"
+ pmg_base_building_construction_sector_safety:0 "Worker Safety"
+ decree_encourage_construction:0 "Public Works"
+ decree_encourage_construction_desc:0 "Increase Construction Sector Employment and Wages"

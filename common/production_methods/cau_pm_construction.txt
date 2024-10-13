@@ -1,0 +1,210 @@
+﻿pm_wooden_buildings = {
+	texture = "gfx/interface/icons/production_method_icons/wooden_buildings.dds"
+	
+	is_default = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 1
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_fabric_add = 4 # approx. 1/5 vanilla values
+			goods_input_wood_add = 12  #
+			goods_input_tools_add = 0.5  # new
+		}
+
+		level_scaled = {
+			building_employment_bureaucrats_add = 375  # 500 -25% employees across the board
+			building_employment_clerks_add = 375       # 500
+			building_employment_laborers_add = 3000    # 4000
+			building_employment_engineers_add = 50     # new
+		}
+		unscaled = {
+			building_laborers_mortality_mult = 0.025 # higher tiers are more hazardous to the workers
+			building_laborers_mortality_mult = 0.0125 # engineers are on site too
+		}
+	}
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_construction_mult = 0.017 # 0.002 # x8.5
+		}	
+	}
+}
+
+pm_iron_frame_buildings = {
+	texture = "gfx/interface/icons/production_method_icons/iron_frame_buildings.dds"
+	
+	unlocking_technologies = {
+		urban_planning
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 1.5 # 5
+		}
+
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_wood_add = 5     # 40 approx. 1/5 vanilla values
+			goods_input_fabric_add = 2.5 # 20
+			goods_input_iron_add = 8     # 50
+			goods_input_tools_add = 4    # 10 / 2
+		}
+
+		level_scaled = {
+			building_employment_bureaucrats_add = 375  # 500 -25% employees across the board
+			building_employment_clerks_add = 375       # 500
+			building_employment_engineers_add = 187    # 250
+			building_employment_machinists_add = 562   # 750
+			building_employment_laborers_add = 2000    # 3000
+		}
+		unscaled = {
+			building_laborers_mortality_mult = 0.05
+			building_machinists_mortality_mult = 0.075 # more dangerous than laborers?
+			building_engineers_mortality_mult = 0.025
+		}
+	}
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_construction_mult = 0.034 # 0.004 # x8.5
+		}	
+	}
+}
+
+pm_steel_frame_buildings = {
+	texture = "gfx/interface/icons/production_method_icons/steel_frame_buildings.dds"
+
+	unlocking_technologies = {
+		steel_frame_buildings
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 2 # 10
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_steel_add = 20      # 50
+			goods_input_glass_add = 8       # 40
+			goods_input_explosives_add = 2  # 10
+			goods_input_tools_add = 10      # 20 / 2
+		}
+
+		level_scaled = {
+			building_employment_bureaucrats_add = 375  # 500
+			building_employment_clerks_add = 375       # 500
+			building_employment_engineers_add = 250    # 250
+			building_employment_machinists_add = 900   # 750
+			building_employment_laborers_add = 1850    # 3000
+		}
+		unscaled = {
+			building_laborers_mortality_mult = 0.1
+			building_machinists_mortality_mult = 0.15 # more dangerous than laborers?
+			building_engineers_mortality_mult = 0.05
+		}
+	}
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_construction_mult = 0.0595 # 0.007 # x8.5
+		}	
+	}
+}
+
+pm_arc_welded_buildings = {
+	texture = "gfx/interface/icons/production_method_icons/arc_welded_buildings.dds"
+
+	unlocking_technologies = {
+		arc_welding
+	}
+		
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 2.5 # 15
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_steel_add = 25        # 50
+			goods_input_glass_add = 8         # 40
+			goods_input_explosives_add = 4    # 20
+			goods_input_tools_add = 15        # 40
+			goods_input_electricity_add = 3   # 40
+		} 
+
+		level_scaled = {
+			building_employment_bureaucrats_add = 375   # 500
+			building_employment_clerks_add = 375        # 500
+			building_employment_engineers_add = 350     # 250
+			building_employment_machinists_add = 1200   # 750
+			building_employment_laborers_add = 1350     # 3000
+		}
+		unscaled = {
+			building_laborers_mortality_mult = 0.2
+			building_machinists_mortality_mult = 0.3 # more dangerous than laborers?
+			building_engineers_mortality_mult = 0.1
+		}
+	}
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_construction_mult = 0.085 # 0.01 # x8.5
+		}	
+	}
+
+	required_input_goods = electricity
+}
+
+pm_construction_no_safety = {
+	texture = "gfx/interface/icons/law_icons/no_workers_rights.dds"
+}
+
+pm_construction_hardhats = {
+	texture = "gfx/interface/icons/law_icons/regulatory_bodies.dds"
+	
+	unlocking_technologies = { steel_frame_buildings }
+
+	disallowing_laws = { law_no_workers_rights }
+
+    building_modifiers = {
+	    unscaled = {
+		    building_laborers_mortality_mult = -0.0375     # -25%
+		    building_machinists_mortality_mult = -0.05625  # -25%
+		    building_engineers_mortality_mult = -0.01875   # -25%
+		level_scaled = {
+			goods_input_steel_add = 1.5
+			goods_input_tools_add = 0.25
+			}
+		}
+	}
+}
+
+pm_construction_harnesses = {
+	texture = "gfx/interface/icons/law_icons/worker_protections.dds"
+
+	unlocking_technologies = { elevator }
+
+	unlocking_laws = { law_regulatory_bodies }
+
+    building_modifiers = {
+	    unscaled = {
+		    building_laborers_mortality_mult = -0.05     # -50%
+		    building_machinists_mortality_mult = -0.075  # -50%
+		    building_engineers_mortality_mult = -0.025   # -50%
+		level_scaled = {
+			goods_input_steel_add = 1.5
+			goods_input_tools_add = 0.25
+			goods_input_rubber_add = 1
+		    }
+	    }
+    }
+}

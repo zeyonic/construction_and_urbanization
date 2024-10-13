@@ -1,0 +1,6 @@
+﻿l_braz_por:
+ pm_construction_no_safety:0 "No Hazard controls"
+ pm_construction_hardhats:0 "Mandatory Hard hats"
+ pm_construction_harnesses:0 "Hard hats & Harnesses"
+ pm_oil_streetlights:0 "Oil Lighting"
+ pmg_base_building_construction_sector_safety:0 "Worker Safety"
