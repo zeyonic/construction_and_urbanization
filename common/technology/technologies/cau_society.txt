@@ -7,7 +7,7 @@
 	modifier = {
 		state_infrastructure_from_population_add = 2
 		state_infrastructure_from_population_max_add = 40	
-		state_building_construction_sector_max_level_add = 2
+		state_building_construction_sector_max_level_add = 1
 	    country_max_weekly_construction_progress_add = 2
 		market_land_trade_capacity_add = 50
 	}
@@ -25,8 +25,8 @@ urban_planning = {
 	modifier = {
 		state_infrastructure_from_population_add = 1
 		state_infrastructure_from_population_max_add = 20
-	    state_building_construction_sector_max_level_add = 2
-		country_max_weekly_construction_progress_add = 2
+	    state_building_construction_sector_max_level_add = 1
+		country_max_weekly_construction_progress_add = 3
 		market_land_trade_capacity_add = 50
 	}
 	
@@ -49,8 +49,8 @@ sewage_systems = {
 		state_infrastructure_from_population_max_add = 20
 		state_urbanization_per_level_mult = -0.1
 		state_pollution_reduction_health_mult = -0.1
-		state_building_construction_sector_max_level_add = 5
-		country_max_weekly_construction_progress_add = 6
+		state_building_construction_sector_max_level_add = 1
+		country_max_weekly_construction_progress_add = 5
 	}
 	
 	unlocking_technologies = {
@@ -78,7 +78,7 @@ modern_sewerage = {
 		state_infrastructure_from_population_max_add = 20
 		state_urbanization_per_level_mult = -0.1
 		state_pollution_reduction_health_mult = -0.15
-		state_building_construction_sector_max_level_add = 5
+		state_building_construction_sector_max_level_add = 1
 		country_max_weekly_construction_progress_add = 5
 	}
 	
@@ -101,8 +101,8 @@ water_treatment = {
 		state_infrastructure_from_population_max_add = 20
 		state_urbanization_per_level_mult = -0.15
 		state_pollution_reduction_health_mult = -0.25
-		state_building_construction_sector_max_level_add = 10
-		country_max_weekly_construction_progress_add = 10
+		state_building_construction_sector_max_level_add = 1
+		country_max_weekly_construction_progress_add = 5
 	}
 	
 	unlocking_technologies = {

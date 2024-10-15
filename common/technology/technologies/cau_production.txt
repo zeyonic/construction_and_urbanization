@@ -14,7 +14,7 @@ railways = {
 	
 	modifier = {
 	    state_building_construction_sector_max_level_add = 1 # new
-		country_max_weekly_construction_progress_add = 2 # new
+		country_max_weekly_construction_progress_add = 3 # new
 	}
 	
 	unlocking_technologies = {
@@ -37,7 +37,6 @@ railways = {
 	}
 }
 
-
 bessemer_process = {
 	# Unlocks Bessemer Process PM in Steel Mills
 	# Unlocks Steel [Tools] PM in Tooling Workshops
@@ -47,7 +46,7 @@ bessemer_process = {
 	
 	modifier = {
 	    state_building_construction_sector_max_level_add = 2 # new
-		country_max_weekly_construction_progress_add = 2 # new
+		country_max_weekly_construction_progress_add = 5 # new
 	}
 	
 	unlocking_technologies = {	
@@ -79,8 +78,8 @@ dynamite = {
 	
 	modifier = {
 		country_resource_discovery_chance_mult = 0.25
-		state_building_construction_sector_max_level_add = 2 # new
-		country_max_weekly_construction_progress_add = 2 # new
+		state_building_construction_sector_max_level_add = 1 # new
+		country_max_weekly_construction_progress_add = 5 # new
 	}
 	
 	unlocking_technologies = {	
@@ -99,8 +98,8 @@ reinforced_concrete = {
 	category = production
 	
 	modifier = {
-		building_construction_sector_throughput_add = 0.25 # tweaked
-		state_building_construction_sector_max_level_add = 2 # new
+		building_construction_sector_throughput_add = 0.2 # tweaked
+		state_building_construction_sector_max_level_add = 1 # new
 		country_max_weekly_construction_progress_add = 10 # new
 	}
 	
@@ -120,8 +119,8 @@ open_hearth_process = {
 	category = production
 	
 	modifier = {
-		state_building_construction_sector_max_level_add = 5 # new
-		country_max_weekly_construction_progress_add = 2 # new
+		state_building_construction_sector_max_level_add = 1 # new
+		country_max_weekly_construction_progress_add = 5 # new
 	}
 	
 	unlocking_technologies = {	
@@ -140,8 +139,8 @@ shift_work = {
 	
 	modifier = {
 		building_economy_of_scale_level_cap_add = 50 # base 20, raised
-		state_building_construction_sector_max_level_add = 5 # new
-		country_max_weekly_construction_progress_add = 2 # new
+		state_building_construction_sector_max_level_add = 1 # new
+		country_max_weekly_construction_progress_add = 5 # new
 	}
 	
 	unlocking_technologies = {	
@@ -166,8 +165,8 @@ electrical_generation = {
 	category = production
 	
 	modifier = {
-		state_building_construction_sector_max_level_add = 2 # new
-		country_max_weekly_construction_progress_add = 2 # new
+		state_building_construction_sector_max_level_add = 1 # new
+		country_max_weekly_construction_progress_add = 5 # new
 	}
 	
 	unlocking_technologies = {	
@@ -201,8 +200,8 @@ electric_railway = {
 	category = production
 
 	modifier = {
-		state_building_construction_sector_max_level_add = 2 # new
-		country_max_weekly_construction_progress_add = 2 # new
+		state_building_construction_sector_max_level_add = 1 # new
+		country_max_weekly_construction_progress_add = 10 # new
 	}	
 	
 	unlocking_technologies = {
@@ -236,8 +235,8 @@ combustion_engine = {
 	category = production
 	
 	modifier = {
-		state_building_construction_sector_max_level_add = 2 # new
-		country_max_weekly_construction_progress_add = 2 # new
+		state_building_construction_sector_max_level_add = 1 # new
+		country_max_weekly_construction_progress_add = 10 # new
 	}
 	
 	unlocking_technologies = {	
@@ -289,7 +288,7 @@ electric_arc_process = {
 	category = production
 	
 	modifier = {
-		state_building_construction_sector_max_level_add = 2 # new
+		state_building_construction_sector_max_level_add = 1 # new
 		country_max_weekly_construction_progress_add = 2 # new
 	}
 	
@@ -309,7 +308,7 @@ steam_turbine = {
 	category = production
 	
 	modifier = {
-		state_building_construction_sector_max_level_add = 2 # new
+		state_building_construction_sector_max_level_add = 1 # new
 		country_max_weekly_construction_progress_add = 2 # new
 	}
 	
@@ -331,7 +330,7 @@ oil_turbine = {
 	category = production
 	
 	modifier = {
-		state_building_construction_sector_max_level_add = 2 # new
+		state_building_construction_sector_max_level_add = 1 # new
 		country_max_weekly_construction_progress_add = 2 # new
 	}
 	
@@ -352,7 +351,7 @@ arc_welding = {
 	category = production
 	
 	modifier = {
-		state_building_construction_sector_max_level_add = 2 # new
+		state_building_construction_sector_max_level_add = 1 # new
 		country_max_weekly_construction_progress_add = 2 # new
 	}
 	
@@ -374,7 +373,7 @@ compression_ignition = {
 	category = production
 	
 	modifier = {
-		state_building_construction_sector_max_level_add = 2 # new
+		state_building_construction_sector_max_level_add = 1 # new
 		country_max_weekly_construction_progress_add = 2 # new
 	}
 	

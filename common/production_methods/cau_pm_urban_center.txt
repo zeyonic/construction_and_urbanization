@@ -1,4 +1,4 @@
-﻿pm_market_stalls = {
+pm_market_stalls = {
 	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
 
 	building_modifiers = {
@@ -292,6 +292,7 @@ pm_public_trams = {
 			goods_input_engines_add = 1.5
 			goods_input_tools_add = 0.5
 			goods_output_services_add = 2
+			goods_input_transportation_add = 1.25
 		}
 		level_scaled = {
 			building_employment_laborers_add = 26
@@ -324,6 +325,9 @@ pm_public_motor_carriages = {
 			goods_input_automobiles_add = 0.5
 			goods_input_tools_add = 1
 			goods_output_services_add = 5
+			goods_input_oil_add = 0.25
+			goods_input_fuel_add = 0.5
+			goods_input_transportation_add = 1.5
 		}
 		level_scaled = {
 			building_employment_laborers_add = 20
@@ -337,9 +341,9 @@ pm_public_motor_carriages = {
 
     state_modifiers = {
 	    unscaled = { 
-		    state_urbanization_per_level_mult = -0.05
-		    state_infrastructure_from_population_max_add = 5
-		    state_infrastructure_from_population_add = 2.5
+		    state_urbanization_per_level_mult = -0.1
+		    state_infrastructure_from_population_max_add = 10
+		    state_infrastructure_from_population_add = 5
 		}
 	}
 }

@@ -59,3 +59,13 @@ state_trait_christianiafjorden = {
 		state_construction_mult = -0.05
 	}
 }
+
+state_trait_malmberget = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+	
+	modifier = {
+		building_iron_mine_throughput_add = 1
+		state_building_construction_sector_max_level_add = -1
+		state_construction_mult = -0.05
+	}
+}
