@@ -38,6 +38,7 @@
 		}
 	}
 }
+}
 
 pm_market_squares = {
 	texture = "gfx/interface/icons/production_method_icons/market_squares.dds"
@@ -82,6 +83,7 @@ pm_market_squares = {
 		    state_pollution_generation_add = 1
 		}
 	}
+}
 }
 
 pm_covered_markets = {
@@ -129,6 +131,7 @@ pm_covered_markets = {
 		}
 	}
 }
+}
 
 pm_arcades = {
 	texture = "gfx/interface/icons/production_method_icons/arcades.dds"
@@ -175,6 +178,7 @@ pm_arcades = {
 		}
 	}
 }
+}
 
 pm_no_street_lighting = {
 	texture = "gfx/interface/icons/production_method_icons/no_street_lighting.dds"
@@ -212,7 +216,7 @@ pm_oil_streetlights = {
 		}
 	}
 }
-
+}
 
 pm_gas_streetlights = {
 	texture = "gfx/interface/icons/production_method_icons/gas_streetlights.dds"
@@ -243,6 +247,7 @@ pm_gas_streetlights = {
 		    state_infrastructure_from_population_add = 2.5
 		}
 	}
+}
 }
 
 pm_electric_streetlights = {
@@ -275,6 +280,7 @@ pm_electric_streetlights = {
 		    state_infrastructure_from_population_add = 5
 		}
 	}
+}
 }
 
 pm_no_public_transport = {
@@ -344,7 +350,7 @@ pm_public_motor_carriages = {
 		    state_urbanization_per_level_mult = -0.1
 		    state_infrastructure_from_population_max_add = 5
 		    state_infrastructure_from_population_add = 1
-			}
 		}
 	}
+}
 }
